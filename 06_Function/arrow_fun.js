@@ -7,4 +7,4 @@ const sum = (a,b) => {
     console.log("Akash")
     return a+b;
 }
-console.log(sum(10,20))
+console.log(sum(10,20));
