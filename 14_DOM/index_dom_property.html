@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Properties</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .web{
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="'wdm">Akash doing mastery in JS
+        <span>WDM</span>
+        <span>Akash -2</span>
+    </h1>
+    <script>
+        let element = document.querySelector('h1')
+        console.log(element)
+        console.log('text content = ',element.textContent)
+        console.log('inner html = ',element.innerHTML)
+        console.log('inner text = ',element.innerText)
+        console.log('style = ',element.style)
+        console.log('class name =', element.className)
+        element.style.color = "black"
+        element.style.background= "yellow"
+        element.textContent = "Akash"
+        element.log('ClassName before = ', element.className)
+        element.className = "web"
+        element.log('ClassName after = ', element.className)
+
+    </script>
+    
+</body>
+</html>
